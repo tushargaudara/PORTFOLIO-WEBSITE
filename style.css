@@ -1,0 +1,159 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #121212;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4CAF50;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background: radial-gradient(circle at top, #1c1c1c 10%, #0d0d0d 80%);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero span {
+    color: #4CAF50;
+}
+
+.hero p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #dcdcdc;
+}
+
+/* Button */
+.btn {
+    margin-top: 25px;
+    padding: 12px 32px;
+    background: linear-gradient(135deg, #4CAF50, #66ff99);
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.6);
+}
+
+/* Sections */
+.about, .projects, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #66ff99;
+}
+
+/* Projects */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #1b1b1b;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #4CAF50;
+}
+
+/* Contact */
+.contact strong {
+    color: #4CAF50;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 1.2s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+    .nav-links {
+        gap: 15px;
+    }
+}
