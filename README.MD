@@ -22,10 +22,10 @@ This project is **Day 1** of my **15 Frontend Projects in 15 Days Challenge**.
 ## 📸 Screenshots
 
 ### 🔹 Preview 1  
-![Portfolio Screenshot 1](images/Home Section.png)
+![Portfolio Screenshot 1](./images/Home%20Section.png)
 
 ### 🔹 Preview 2  
-![Portfolio Screenshot 2](images/About + Projects + Contact Section.png)
+![Portfolio Screenshot 2](./images/About%20+%20Projects%20+%20Contact%20Section.png)
 
 ---
 
