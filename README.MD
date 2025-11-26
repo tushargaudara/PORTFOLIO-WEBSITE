@@ -22,10 +22,10 @@ This project is **Day 1** of my **15 Frontend Projects in 15 Days Challenge**.
 ## 📸 Screenshots
 
 ### 🔹 Preview 1  
-(.images/Home Section.png)
+![Portfolio Screenshot 1](.images/Home Section.png)
 
 ### 🔹 Preview 2  
-(.images/About + Projects + Contact Section.png)
+![Portfolio Screenshot 2](.images/About + Projects + Contact Section.png)
 
 ---
 
@@ -39,9 +39,24 @@ This project is **Day 1** of my **15 Frontend Projects in 15 Days Challenge**.
 ---
 
 ## 📁 Folder Structure
+```
+portfolio/
 │── index.html
 │── style.css
 └── images/
+├── screenshot1.png
+└── screenshot2.png
+
+```
+
+---
+
+## 📦 Run Locally
+
+Clone the project:
+https://github.com/tushargaudara/PORTFOLIO-WEBSITE
+
+---
 
 ## Run:
 
