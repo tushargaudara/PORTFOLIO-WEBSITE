@@ -22,10 +22,10 @@ This project is **Day 1** of my **15 Frontend Projects in 15 Days Challenge**.
 ## 📸 Screenshots
 
 ### 🔹 Preview 1  
-![Portfolio Screenshot 1](.images/Home Section.png)
+![Portfolio Screenshot 1](images/Home Section.png)
 
 ### 🔹 Preview 2  
-![Portfolio Screenshot 2](.images/About + Projects + Contact Section.png)
+![Portfolio Screenshot 2](images/About + Projects + Contact Section.png)
 
 ---
 
@@ -44,8 +44,8 @@ portfolio/
 │── index.html
 │── style.css
 └── images/
-├── screenshot1.png
-└── screenshot2.png
+├── Home Section.png
+└── About + Projects + Contact Section.png
 
 ```
 
@@ -88,7 +88,7 @@ Follow along as I learn and build daily.
 ## 📬 Contact
 
 **Tushar**  
-📧 Email: gaudartushar@gmail.com  
+📧 Email: gaudaratushar@gmail.com  
 🔗 LinkedIn: www.linkedin.com/in/tushargaudara
 🔗 GitHub: https://github.com/tushargaudara
 
